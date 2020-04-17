@@ -26,7 +26,6 @@ export default class PokemonList extends Component {
         const newPokemon = [...this.state.catched]
         newPokemon.push(pkName)
         this.setState({catched:newPokemon });
-        const pokemonCatched= this.state.catched;
         const showNewPokemon = [];
         if(newPokemon){
             newPokemon.map(singleCatched => {
