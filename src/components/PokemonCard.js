@@ -24,7 +24,7 @@ class PokemonCard extends Component {
   render(){
     return(
       <div className="card_container">
-       <h5 className="card_id">{this.state.id}</h5>
+       <h5 className="card_id">PokemonID: {this.state.id}</h5>
        <h1 className="card_name">{this.state.name
               .toLowerCase()
               .split(' ')
