@@ -107,3 +107,26 @@
    height: 3.25em;
  }
  }
+
+ @media only screen and (max-width: 411px) {
+  .container_form{
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+}
+  .c-form__button {
+    padding: 0.1em;
+     height: 100%;
+     width: 100px;
+     font-size: 10px;
+  }
+  .list_empty h1{
+    justify-content: center;
+   font-size: 15px;
+   margin: 10px;
+   padding-left: 20%;
+  }
+  .pokeball {
+    margin: 10% 10%;
+ }
+}

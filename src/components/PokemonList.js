@@ -25,15 +25,17 @@ export default class PokemonList extends Component {
         const pkName = this.state.inputPokemonName.toLowerCase();
         const newPokemon = [...this.state.catched]
         newPokemon.push(pkName)
-        this.setState({catched:newPokemon});
+        this.setState({catched:newPokemon });
         const pokemonCatched= this.state.catched;
+        console.log({pkName:pkName,newPokemon:newPokemon, pokemonCatched:pokemonCatched})
         const showNewPokemon = [];
-        if(pokemonCatched ){
-            pokemonCatched.map(singleCatched => {
+        if(newPokemon){
+            newPokemon.map(singleCatched => {
                 pokemondb.map(single => {
                     if(single.name.includes(singleCatched)) {
                         showNewPokemon.push(single);
                     }
+                    
                  }); 
             })
             this.setState({
@@ -63,6 +65,7 @@ export default class PokemonList extends Component {
             </div>
 
             <div className="list_container">
+
             {this.state.pokemon ? 
                (
                <div className="pokemon_list"> 
