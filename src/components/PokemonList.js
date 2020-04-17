@@ -30,9 +30,10 @@ export default class PokemonList extends Component {
         if(newPokemon){
             newPokemon.map(singleCatched => {
                 pokemondb.map(single => {
-                    if(single.name.includes(singleCatched)) {
+                    if(single.name===singleCatched) {
                         showNewPokemon.push(single);
                     }
+                    
                     
                  }); 
             })
