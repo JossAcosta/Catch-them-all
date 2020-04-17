@@ -27,7 +27,6 @@ export default class PokemonList extends Component {
         newPokemon.push(pkName)
         this.setState({catched:newPokemon });
         const pokemonCatched= this.state.catched;
-        console.log({pkName:pkName,newPokemon:newPokemon, pokemonCatched:pokemonCatched})
         const showNewPokemon = [];
         if(newPokemon){
             newPokemon.map(singleCatched => {
@@ -40,7 +39,6 @@ export default class PokemonList extends Component {
             })
             this.setState({
                 pokemon:showNewPokemon})
-            console.log(this.state)
         }
     };       
     }
