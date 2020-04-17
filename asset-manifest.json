@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Catch-them-all/static/css/main.0ea063dd.chunk.css",
-    "main.js": "/Catch-them-all/static/js/main.8914adb2.chunk.js",
-    "main.js.map": "/Catch-them-all/static/js/main.8914adb2.chunk.js.map",
+    "main.css": "/Catch-them-all/static/css/main.5eac9168.chunk.css",
+    "main.js": "/Catch-them-all/static/js/main.085d21de.chunk.js",
+    "main.js.map": "/Catch-them-all/static/js/main.085d21de.chunk.js.map",
     "runtime-main.js": "/Catch-them-all/static/js/runtime-main.db04de38.js",
     "runtime-main.js.map": "/Catch-them-all/static/js/runtime-main.db04de38.js.map",
     "static/js/2.8597ea3d.chunk.js": "/Catch-them-all/static/js/2.8597ea3d.chunk.js",
     "static/js/2.8597ea3d.chunk.js.map": "/Catch-them-all/static/js/2.8597ea3d.chunk.js.map",
     "index.html": "/Catch-them-all/index.html",
-    "precache-manifest.84a6b873a51ccffd6f8fab02c5e1c8c4.js": "/Catch-them-all/precache-manifest.84a6b873a51ccffd6f8fab02c5e1c8c4.js",
+    "precache-manifest.d9be6d27357e4b6c5c8b70ffc0c01c01.js": "/Catch-them-all/precache-manifest.d9be6d27357e4b6c5c8b70ffc0c01c01.js",
     "service-worker.js": "/Catch-them-all/service-worker.js",
-    "static/css/main.0ea063dd.chunk.css.map": "/Catch-them-all/static/css/main.0ea063dd.chunk.css.map",
+    "static/css/main.5eac9168.chunk.css.map": "/Catch-them-all/static/css/main.5eac9168.chunk.css.map",
     "static/js/2.8597ea3d.chunk.js.LICENSE.txt": "/Catch-them-all/static/js/2.8597ea3d.chunk.js.LICENSE.txt",
     "static/media/PokemonList.css": "/Catch-them-all/static/media/Pokemon Solid.36d26dbc.ttf",
     "static/media/Spin.gif": "/Catch-them-all/static/media/Spin.33dbecea.gif",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.db04de38.js",
     "static/js/2.8597ea3d.chunk.js",
-    "static/css/main.0ea063dd.chunk.css",
-    "static/js/main.8914adb2.chunk.js"
+    "static/css/main.5eac9168.chunk.css",
+    "static/js/main.085d21de.chunk.js"
   ]
 }
